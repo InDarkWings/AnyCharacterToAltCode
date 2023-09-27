@@ -8,14 +8,17 @@
 <body>
     <div class="container">
         <h1>字符编码转换</h1>
+        <h2>遇到一个不便通过键盘输入，而又要重复使用的字符该怎么办呢？</h2>
+        <h3>将该字符复制到下方然后查询其altcode即可在键盘上通过alt+小数字键盘输入</h3>
         <label for="charInput">请输入一个字符：</label>
         <input type="text" id="charInput" maxlength="1">
         <button onclick="convertChar()">转换</button>
-        <p id="utf8Result">UTF-8 编码：</p>
-        <p id="unicodeResult">Unicode 编码：</p>
+        <!-- <p id="utf8Result">UTF-8 编码：</p>
+        <p id="unicodeResult">Unicode 编码：</p> -->
         <p id="altCodeResult">Alt   1代码：</p>
-        <p id="1">T\UncodeT1 代码：</p>
+        <p id="1">Test 代码：</p>
     </div>
+    <h4>注意区分大小写</h4>
     <script src="script.js"></script>
 </body>
 </html>
