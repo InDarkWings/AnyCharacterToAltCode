@@ -1,4 +1,6 @@
 # AnyCharacterToAltCode
+遇到键盘上没有，而又需要重复使用的字符该怎么办呢，查询其altcode然后通过alt+小键盘输入对应编码是个好选择。
+
 This program can convert any character to its corresponding altcode 
 
 ----------------------------------------------------------------------------
